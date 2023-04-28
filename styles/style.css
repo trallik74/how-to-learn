@@ -260,9 +260,6 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer {
-}
-
 .footer__author {
   line-height: 25px;
   font-size: 18px;
@@ -270,8 +267,6 @@
   margin: 18px 0;
 }
 
-.footer__column_content_info {
-}
 
 .footer__column-heading {
   line-height: 30px;
@@ -289,15 +284,8 @@
   margin: 20px 0 16px;
 }
 
-.footer__list-item {
-
-}
-
 .footer__column-link {
   color: #fff;
-}
-
-.footer__column_content_social {
 }
 
 .footer__social-link {
