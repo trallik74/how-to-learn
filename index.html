@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
@@ -17,7 +16,7 @@
         <a class="header__link link" href="#">Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="images/header-image.png" alt="Картина Фёдора Решетникова - Опять двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -29,6 +28,46 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </article>
+      </section>
+      <setion class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-attention.png" alt="" >
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-recall.png" alt="" >
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-interliving.png" alt="" >
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-question.png" alt="" >
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-competence.png" alt="" >
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+
+            </p>
+          </li>
+
+        </ul>
+      </setion>
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
+        <a class="feynman__link link" href="#">Подробнее &rarr;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -69,11 +108,6 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </li>
         </ul>
-      </section>
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a class="feynman__link link" href="#">Подробнее &rarr;</a>
       </section>
       <section class="kayfman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -120,7 +154,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ol>
-        <div class="kayfman__triangle"></div>
+        <div class="kayfman__triangle rotation"></div>
       </section>
     </main>
     <footer class="footer">
