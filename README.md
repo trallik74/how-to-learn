@@ -6,5 +6,5 @@ How-to-learn типовой одностроничный сайт, для экр
 ## Технологии
 Проект создан при помощи технологий:
 * HTML5
-* CSS
+* CSS 
 Файловая структура проекта организованна по методологии [БЭМ Nested](https://ru.bem.info/methodology/filestructure/#nested)
